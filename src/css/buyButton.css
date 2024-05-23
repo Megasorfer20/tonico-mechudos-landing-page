@@ -1,0 +1,79 @@
+.buyButtonAligment{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    padding:1rem;
+}
+.buyButton{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    gap:0.4rem;
+    border:none;
+    color:#fff;
+    padding: 1.5rem;
+    background-color: #45C119;
+    text-transform: uppercase;
+    border-radius:1rem;
+    font-size:1.3rem;
+    font-weight:550;
+    cursor:pointer; 
+}
+
+.buyButton svg{
+    color: #fff;
+    font-size:3rem;
+}
+
+@media(max-width:1000px){
+    .buyButton{
+        font-size:2rem;
+   
+    }
+    .buyButton svg{
+        color: #fff;
+        font-size:2.8rem;
+    }
+}
+
+@media(max-width: 500px){
+    .buyButtonAligment{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+        padding:1rem;
+    }
+    .buyButton{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+        gap:0.4rem;
+        border:none;
+        color:#fff;
+        padding: 1rem;
+        background-color: #45C119;
+        text-transform: uppercase;
+        border-radius:1rem;
+        font-size:1.3rem;
+        font-weight:550;
+        cursor:pointer; 
+    }
+    
+    .buyButton svg{
+        color: #fff;
+        font-size:3rem;
+    }
+}
+
+@media (max-width:400px){
+    .buyButton{
+        font-size:0.8rem;
+    }
+    .buyButton svg{
+        font-size:2rem;
+    }
+}

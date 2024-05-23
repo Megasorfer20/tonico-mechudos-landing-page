@@ -1,0 +1,11 @@
+.qualificationLine{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+
+.qualificationLine div svg{
+    color: rgb(235, 245, 49);
+    font-size:2rem;
+}

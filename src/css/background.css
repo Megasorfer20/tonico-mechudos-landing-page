@@ -1,0 +1,61 @@
+/* Background.css */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #bcd8da; /* Color de fondo azul claro */
+  z-index: -1; /* Coloca el fondo detrás del contenido principal */
+}
+
+.plant {
+  /* Estilos comunes para los SVG de las plantas */
+  position: absolute;
+  width: 45%;
+  /* Ajusta otras propiedades según sea necesario */
+}
+
+.plant-pc {
+  /* Estilos comunes para los SVG de las plantas */
+  position: absolute;
+  width: 25%;
+  /* Ajusta otras propiedades según sea necesario */
+}
+
+/* Estilos específicos para los SVG dependiendo de la posición */
+.left-top {
+  top: 5rem;
+  left: 0;
+}
+
+.right-top {
+  top: 5rem;
+  right: 0;
+}
+
+.left-bottom {
+  bottom: 0;
+  left: 0;
+}
+
+.right-bottom {
+  bottom: 0;
+  right: 0;
+}
+
+.cellhpone-bkg {
+  display: block;
+}
+.computer-bkg {
+  display: none;
+}
+
+@media (min-width: 520px) {
+  .cellhpone-bkg {
+    display: none;
+  }
+  .computer-bkg {
+    display: block;
+  }
+}

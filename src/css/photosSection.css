@@ -1,0 +1,71 @@
+.photosSection{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    gap:0.4rem;
+}
+
+.sectionOne{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+
+.sectionTwo{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    gap:0.4rem;
+    padding:1rem 0;
+}
+
+.sectionOne img{
+    width:25rem;
+    height:35rem;
+    border-radius:1rem;
+}
+
+.sectionTwo img{
+    width:7rem;
+    height:9rem;
+    border-radius:1rem;
+}
+
+@media(max-width:1200px){
+    .sectionOne img{
+        width:35rem;
+        height:45rem;
+        border-radius:1rem;
+    }
+    
+    .sectionTwo img{
+        width:7rem;
+        height:9rem;
+        border-radius:1rem;
+    }
+}
+
+@media(max-width:550px){
+    .sectionOne img{
+        width:18rem;
+        height:20rem;
+        border-radius:1rem;
+    }
+
+    .sectionTwo{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content: center;
+        padding:1rem 0;
+    }
+    
+    .sectionTwo img{
+        width:3rem;
+        height:4rem;
+        border-radius:1rem;
+    }
+}

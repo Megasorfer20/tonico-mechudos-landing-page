@@ -1,0 +1,67 @@
+.resultCheck{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    width:100%;
+}
+
+.resultCheck div{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    gap:1rem;
+}
+
+.resultCheck div p{
+    font-size:1.2rem;
+    font-weight:550;
+    width:22rem;
+}
+
+.resultCheck div svg{
+    color:#24FF00;
+    font-size:2.3rem;
+}
+
+@media(max-width:1200px){
+    .resultCheck{
+        grid-template-columns: repeat(1, 1fr);
+        place-items:center;
+    }
+    .resultCheck div p{
+        font-size:2.7rem;
+        width:30rem;
+    }
+    .resultCheck div svg{
+        font-size:4rem;
+    }
+}
+
+@media(max-width: 500px){
+    .resultCheck{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        width:100%;
+    }
+    
+    .resultCheck div{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+        gap:1rem;
+    }
+    
+    .resultCheck div p{
+        font-size:1.3rem;
+        font-weight:550;
+        width:18rem;
+    }
+    
+    .resultCheck div svg{
+        color:#24FF00;
+        font-size:2.3rem;
+    }
+}

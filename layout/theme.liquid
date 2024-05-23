@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page_title }}</title>
+  {{ content_for_header }}
+  <link rel="stylesheet" href="{{ 'style.css' | asset_url }}">
+</head>
+<body>
+  <div id="root"></div>
+  {{ content_for_layout }}
+  <script src="{{ 'bundle.js' | asset_url }}"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+.principalSection{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    background-color:#000000;
+}
+
+.LateralFrame{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    height:37rem;
+    padding:1rem;
+}
+
+.LateralFrame img{
+    width:100%;
+    height:37rem;
+}
+
+.bg-white{
+    background-color:#fff;
+}
+
+.greenFrame{
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+    justify-content:space-between;
+    /* background-color:#04ff00e0; */
+    background-image: url("https://media.istockphoto.com/id/1458753625/es/foto/fondo-de-textura-de-hojas-azules.webp?b=1&s=170667a&w=0&k=20&c=mHmTVbjzMb4mg7up5UMvzIfRzHXD7OTqpcL5GyZNejQ=");
+    padding:1rem;
+    width:60%;
+    height:37rem;
+}
+
+.framePart{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.framePart div{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:0.5rem;
+}
+
+.parrafosData{
+    color:#fff;
+    font-size:2rem;
+    font-weight:550;
+    text-align:center;
+    margin-top:-1rem;
+}
+
+.contorno{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.framePart div h2{
+    color:#fff;
+    font-size:2rem;
+    width:24rem;
+    text-align:center;
+}
+
+
+.framePart .frameImgOne{
+    width:12rem;
+    height:16rem;
+}
+
+.framePart .frameImgTwo{
+    width:14rem;
+    height:16rem;
+}
+
+.antesPrice{
+    color:rgb(255, 0, 0);
+    text-decoration:line-through #fff;
+    text-align:center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+
+@keyframes borderAnimation{
+    25%{
+        border-top: 8px solid rgb(0, 255, 0);
+    }
+    50%{
+        border-right: 8px solid rgb(0, 255, 0);
+    }
+    75%{
+        border-bottom: 8px solid rgb(0, 255, 0);
+    }
+    100%{
+        border-left: 8px solid rgb(0, 255, 0);
+    }
+}
+
+@media(max-width:1200px){
+    .principalSection{
+        flex-direction:column;
+    }
+    .LateralFrame{
+        width:100%;
+        height:40rem;
+        padding:0;
+    }
+    
+    .LateralFrame img{
+        width:80%;
+        height:40rem;
+    }
+    .greenFrame{
+        width:100%;
+        padding:0;
+
+    }
+}
+
+@media(max-width:550px){
+    .principalSection{
+        flex-direction:column;
+    }
+    .LateralFrame{
+        width:100%;
+        height:30rem;
+        padding:0;
+    }
+    
+    .LateralFrame img{
+        width:80%;
+        height:30rem;
+    }
+    .greenFrame{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:flex-start;
+        width:100%;
+        height:87rem;
+        padding:0;
+
+    }
+    .framePart div h2{
+        color:#fff;
+        font-size:2rem;
+        width:18rem;
+        text-align:center;
+    }
+}

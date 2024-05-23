@@ -1,0 +1,114 @@
+
+.offer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:0.7rem;
+    width:100%;
+}
+
+.offer h2{
+    font-size:1.7rem;
+}
+.cardsAlignment{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:2rem;
+    padding:1rem;
+    overflow:auto;
+}
+
+.cardsAlignment::-webkit-scrollbar{
+    display:none;
+}
+.productCard{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    box-shadow:4px 4px 4px #000;
+    border:2px dashed #00ff7b;
+    padding:1rem;
+    height:25rem;
+}
+
+.productCard h2{
+    font-size:1.15rem;
+    text-align:center;
+    height:3.1rem;
+    width:15rem;
+}
+
+.productCard img{
+    width:12.9rem;
+    height:12.9rem;
+    border-radius:2rem;
+}
+
+.productCard p{
+    font-size:1.1rem;
+    color:#000;
+    font-weight:550;
+    text-align:center;
+}
+
+.productCard button{
+    padding:0.7rem;
+    background-color: #00ff7b;
+    color:#000000;
+    border:none;
+    border-radius:2rem;
+    font-size:0.9rem;
+    font-weight:550;
+    cursor:pointer;
+}
+
+.cardDeforePrice{
+    color:red;
+    text-decoration: line-through;
+}
+
+.sectionScroll{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+}
+
+.buttonScroll{
+    display:none;
+    color:#00ff7b;
+    background:none;
+    border:none;
+    font-size:3rem;
+    cursor:pointer;
+}
+
+
+@media(max-width: 1200px){
+    .cardsAlignment{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .buttonScroll{
+        display:flex;
+    }
+}
+
+@media(max-width:550px){
+    .cardsAlignment{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttonScroll{
+        display:none;
+    }
+}

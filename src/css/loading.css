@@ -1,0 +1,54 @@
+.modal_loading{
+    display:none;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    position:fixed;
+    background-color:rgba(0,0,0,40%);
+    width:100%;
+    height:100vh;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    z-index:2;
+}
+
+.loading{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:10rem;
+    height:10rem;
+    background:#ffffffd9;
+    border-radius:2rem;
+}
+
+
+.loading svg{
+    color:#000;
+    font-size:5rem;
+    animation: infinite 0.9s loadingAnimation ease;
+}
+
+.loading h2{
+    height:0.3rem;
+    font-size:1.2rem;
+}
+
+@keyframes loadingAnimation{
+    25%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    75%{
+        transform: rotate(180deg);
+    
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

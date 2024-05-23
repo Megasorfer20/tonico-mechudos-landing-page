@@ -1,0 +1,77 @@
+.modal{
+    display:none;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    position:fixed;
+    background-color:rgba(0,0,0,40%);
+    width:100%;
+    height:100vh;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    z-index:2;
+}
+
+.modal60s__bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 30%), rgba(0, 0, 0, 40%)), url("https://img.freepik.com/foto-gratis/tiro-vertical-foret-soignes-belgica-bruselas-sol-brillando-traves-ramas_181624-5081.jpg");
+    filter:brightness(0.9);
+    user-select:none;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:0.4rem;
+    margin:1rem;
+}
+
+.oferta{
+    font-size:1.9rem;
+    color:#fff;
+    -webkit-text-stroke-color: #ff0000;
+    -webkit-text-stroke-width: 1.7px;
+    text-align:center;
+    font-weight:550;
+    width:22rem;
+    height:9rem;
+}
+
+.modal60s__bg img{
+    width:14rem;
+    height:9rem;
+    border-radius:1rem;
+}
+
+.parrafo{
+    font-size:1.6rem;
+    color:#fff;
+    text-align:center;
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 0.2px;
+    font-weight:550;
+    width:22rem;
+    height:7rem;
+}
+
+.price{
+    color: #ff0000;
+    font-size:1.9rem;
+    height:0.2rem;
+    font-weight:550;
+}
+
+.price span{
+    color:#fff;
+    text-decoration:line-through;
+}
+
+@media(max-width: 375px){
+    .oferta{
+        font-size:1.7rem;
+        height:7rem;
+    }
+    .parrafo{
+        height:7rem;
+    }
+}

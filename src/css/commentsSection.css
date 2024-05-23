@@ -1,0 +1,27 @@
+
+.commentsSection{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    place-items: center;
+    justify-items:center;
+    gap:1rem;
+    margin:2rem 0;
+}
+
+.commentsSection h2{
+    font-size:2rem;
+    text-align:left;
+    width:100%;
+}
+
+@media(max-width:1200px){
+    .commentsSection{
+        grid-template-columns:repeat(2, 1fr);
+    }
+}
+
+@media(max-width:550px){
+    .commentsSection{
+        grid-template-columns:repeat(1, 1fr);
+    }
+}
