@@ -9,6 +9,12 @@
 <body>
   <div id="root"></div>
   {{ content_for_layout }}
+  <script>
+    window.ShopifyData = {
+      products: {{ products | json }},
+      collections: {{ collections | json }}
+    };
+  </script>
   <script src="{{ 'bundle.js' | asset_url }}"></script>
 </body>
 </html>

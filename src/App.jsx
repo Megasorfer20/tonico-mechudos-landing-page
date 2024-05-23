@@ -1,11 +1,23 @@
 import React from 'react';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Home from './pages/Home';
+import './css/index.css';
 
-const App = () => {
+function App() {
+
+  const router = createBrowserRouter([
+    {
+      path: "*",
+      element: <Home />
+    }
+  ]);
+
   return (
-    <div>
-      <h1>Hello, Shopify!</h1>
-    </div>
-  );
-};
+    <>
+    <div></div>
+      <RouterProvider router={router} />
+    </>
+  )
+}
 
-export default App;
+export default App
