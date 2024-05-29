@@ -1,11 +1,12 @@
 {
   "dependencies": {
+    "axios": "^1.6.8",
+    "crypto-js": "^4.2.0",
+    "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
     "react-router-dom": "^6.23.1",
-    "axios": "^1.6.8",
-    "crypto-js": "^4.2.0",
     "sweetalert2": "^11.10.7"
   },
   "devDependencies": {
@@ -13,11 +14,19 @@
     "@babel/preset-env": "^7.24.5",
     "@babel/preset-react": "^7.24.1",
     "babel-loader": "^9.1.3",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "imagemin": "^9.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "imagemin-svgo": "^11.0.0",
+    "style-loader": "^4.0.0",
+    "url-loader": "^4.1.1",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "imagemin": "imagemin src/assets/img/* --out-dir=src/assets/img-optimized"
   }
-  
 }

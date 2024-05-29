@@ -1,11 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import React, { Suspense, lazy } from 'react';
+import ReactDOM from 'react-dom/client';
+
+const App = lazy(() => import('./App.jsx'));
 
 const ShopifyData = window.ShopifyData;
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App data={ShopifyData} />
-  </React.StrictMode>,
-)
+    <Suspense fallback={<div>Loading...</div>}>
+      <App data={ShopifyData} />
+    </Suspense>
+  </React.StrictMode>
+);
