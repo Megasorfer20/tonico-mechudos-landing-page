@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './../css/navbar.css';
 import Logo from './../assets/img/logo.png';
 import SmallBuyButton from './SmallBuyButton.jsx';

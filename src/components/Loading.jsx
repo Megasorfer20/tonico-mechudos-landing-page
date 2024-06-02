@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { useEffect } from 'react';
 import './../css/loading.css';
 import { AiOutlineLoading3Quarters } from "react-icons/ai";

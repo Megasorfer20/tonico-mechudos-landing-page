@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './../css/comment.css';
 import QualificationLine from './QualificationLine';
 

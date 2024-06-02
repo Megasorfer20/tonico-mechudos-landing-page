@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './../css/dataModal.css';
 import { IoCloseCircle } from 'react-icons/io5';
 import Swal from 'sweetalert2'

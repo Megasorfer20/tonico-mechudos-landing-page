@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './../css/photosSection.css';
+import React from 'react';
 
 import gitOne from  './../assets/img/photosSection/gitOne.gif';
 import gitTwo from  './../assets/img/photosSection/gitTwo.gif';

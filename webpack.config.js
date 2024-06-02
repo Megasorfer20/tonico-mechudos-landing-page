@@ -15,6 +15,14 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env', '@babel/preset-react'],
+            plugins: [
+              [
+                '@babel/plugin-transform-react-jsx',
+                {
+                  runtime: 'automatic',
+                },
+              ],
+            ],
           },
         },
       },
@@ -28,7 +36,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              name: '[path][name].[ext]',
+              name: '[name].[ext]',
             },
           },
         ],

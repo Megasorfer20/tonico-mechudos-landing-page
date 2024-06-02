@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { CommentsData } from '../app/commentsData';
 import './../css/commentsSection.css';
 import Comment from "./Comment";

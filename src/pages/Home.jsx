@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { useEffect, useState } from 'react';
 import Sha256 from 'crypto-js/sha256';
 

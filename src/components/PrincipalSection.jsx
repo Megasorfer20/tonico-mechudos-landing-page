@@ -3,6 +3,7 @@ import Products from './../assets/img/products.png';
 import TonicoMechudos from './../assets/img/TONICOMECHUDOS.png';
 import envioGratisFREE from './../assets/img/envioGratis.png';
 import PagoContraentrega from './../assets/img/entrega2.png';
+import React from 'react';
 
 function PrincipalSection(){
     return(
