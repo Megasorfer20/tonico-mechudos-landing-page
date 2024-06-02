@@ -1,3 +1,4 @@
+import React from 'react';
 import './../css/productDescription.css';
 import photo from './../assets/img/description.png';
 function ProductDescription(){

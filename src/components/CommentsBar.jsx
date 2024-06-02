@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './../css/commentsBar.css';
 import { FaPlus } from "react-icons/fa6";
 import Loading from './Loading';

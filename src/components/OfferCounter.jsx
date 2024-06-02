@@ -1,5 +1,6 @@
 import './../css/offerCounter.css';
 import { useEffect, useState } from "react";
+import React from 'react';
 
 function OfferCounter(props) {
 

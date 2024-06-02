@@ -1,4 +1,6 @@
 import { IoStarHalf , IoStar, IoStarOutline   } from "react-icons/io5";
+import React from 'react';
+
 function Qualification(props){
 
     const getIcon = (qualification) => {

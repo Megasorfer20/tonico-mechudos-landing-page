@@ -1,3 +1,5 @@
+import React from 'react';
+
 import cellAbjIz from "../assets/img/background-svg/cellAbjIz.svg";
 import cellArrDer from "../assets/img/background-svg/cellAbjDer.svg";
 import cellArrIz from "../assets/img/background-svg/cellArrIz.svg";

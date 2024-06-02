@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './../css/modal60s.css';
 import productModal from './../assets/img/productModal60s.jpeg';
 import { IoCloseCircle } from "react-icons/io5";

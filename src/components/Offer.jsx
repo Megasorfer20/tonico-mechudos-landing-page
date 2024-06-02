@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './../css/offer.css';
 import DuoTónicoyShampooMechudos from './../assets/img/DuoTonicoShampoo.png';
 import { ProductData } from '../app/productData.js';

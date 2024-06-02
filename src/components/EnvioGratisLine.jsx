@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './../css/envioGratisLine.css';
 import { PiAirplaneTiltFill } from "react-icons/pi";
 

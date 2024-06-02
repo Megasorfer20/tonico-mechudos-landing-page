@@ -1,3 +1,4 @@
+import React from 'react';
 import './../css/smallBuyButton.css';
 import { FaShoppingCart } from "react-icons/fa";
 
